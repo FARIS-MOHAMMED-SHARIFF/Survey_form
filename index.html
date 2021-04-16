@@ -7,15 +7,17 @@
         <p id="description">lgfnisfgikfbgdhsfig</p>
 
         <form id="survey-form">
-            <label id="name-label">Name</label>
+            <label for="name" id="name-label">
+                Name
+            </label>
             <input id="name" type="text" placeholder="Enter your name" required>
-            <br>
-            <label id="email-label">Email</label>
+            
+            <label for="email" id="email-label">Email</label>
             <input id="email" type="email" placeholder="Enter your email-id" required>
-            <br>
-            <label id="number-label">Number</label>
+            
+            <label for="number" id="number-label">Number</label>
             <input id="number" type="number" placeholder="Number" min="0" max="100">
-            <br>
+           
 
             <label for="cars">Choose a car:</label>
                 <select name="cars" id="dropdown">
@@ -24,23 +26,30 @@
                 <option value="mercedes">Mercedes</option>
                 <option value="audi">Audi</option>
                 </select>
-            <br>
-            <label for="">
-                <input id="" type="radio" name="radio" value="dfdf">yufgkj</label>
-            <label for="">
-                <input id="" type="radio" name="radio" value="fdgvv">khgfjkbkjf</label>
-            <label for="">
-                <input id="" type="radio" name="radio" value="gededfgve">kjdfhgbklf</label>
-            <br>
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-            <label for="vehicle1"> I have a bike</label><br>
-            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-            <label for="vehicle2"> I have a car</label><br>
-            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <div>
+            <label for="za">
+                <input id="za" type="radio" name="radio" value="dfdf">yufgkj</label>
+            <label for="az">
+                <input id="az" type="radio" name="radio" value="fdgvv">khgfjkbkjf</label>
+            <label for="azx">
+                <input id="azx" type="radio" name="radio" value="gededfgve">kjdfhgbklf</label>
+            </div>
+
+            <div>
+            <input id="vehicle1" type="checkbox"  name="vehicle" value="Bike">
+            <label for="vehicle1"></label> I have a bike</label>
+            
+            <input id="vehicle2" type="checkbox"  name="vehicle" value="Car">
+            <label for="vehicle2"> I have a car</label>
+            
+            <input id="vehicle3" type="checkbox"  name="vehicle" value="Boat">
             <label for="vehicle3"> I have a boat</label>
-            <br>
-            <textarea name="comment" form="usrform"></textarea>   
-            <br>
+            </div>
+
+            <label for="message">Message</label>
+            
+            <textarea id="message"></textarea>   
+
             <input id="submit" type="submit" value="Submit">
         </form>
     </body>
