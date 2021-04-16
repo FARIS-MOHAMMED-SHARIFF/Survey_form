@@ -1,27 +1,41 @@
-body {
+ h1 {
+    text-align: center;
+}
+p{
+    margin:25px 5px 0px 5px;
+    font-size:18px;
+}
+ body {
+    font-family: sans-serif;
     background-color: #7d9da1d2;
  }
- #survey-form{
+ #survey-form {
      max-width :500px;
      margin:2rem auto;
      border:2px solid #304f53d2;
      padding:2rem;
+     border-radius: 5px;
  }
 
- /* label{
-    display : block;
-}
- input,textarea{
-    display:block;
-}   */
-div{
-    display:block;
-}
 
-#submit{
-    /* border: ; */
-    background-color: beige ;
+ label {
+    display : block;
+    padding:1rem 0 .5rem; 
+    font-size: 18px;
+}
+input,textarea{
+    border:2px solid;
+    padding:.5rem;
+    font-size:16px;
+    border-radius: 5px;
+}
+ #submit {
+    background-color: rgb(16, 96, 99) ;
     color: blueviolet;
     cursor:pointer;
+    display:block;
+    padding: .5rem;
+    width:auto;
+    margin:1rem 0;
 }
 
