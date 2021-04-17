@@ -32,8 +32,7 @@ input,textarea{
     background-color: blanchedalmond;
 }
  #submit {
-    background-color: rgb(16, 23, 46) ;
-    color: whitesmoke;
+    background-color: #dbc5a8 ;
     cursor:pointer;
     display:block;
     padding: .5rem;
